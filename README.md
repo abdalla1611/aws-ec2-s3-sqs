@@ -8,12 +8,14 @@ User starts the application and supplies as input a file with URLs of PDF files 
 User gets back an html file containing PDF files after the result of the operation performed on them.
 Input Files: Each line in the input file will contain an operation followed by a tab ("\t") and a URL of a pdf file. The operation can be one of the following:
 
-ToImage - convert the first page of the PDF file to a "png" image. ToHTML - convert the first page of the PDF file to an HTML file. ToText - convert the first page of the PDF file to a text file.
+* ToImage - convert the first page of the PDF file to a "png" image.
+* ToHTML - convert the first page of the PDF file to an HTML file.
+* ToText - convert the first page of the PDF file to a text file.
 
 Output File :
 
 The output is an HTML file containing a line for each input line. The format of each line is as follows: : input file output file, where:
 
-Operation is one of the possible operations.
-Input file is a link to the input PDF file.
-Output file is a link to the image/text/HTML output file. If an exception occurs while performing an operation on a PDF file, or the PDF file is not available, then output line for this file will be: : input file .
+* Operation is one of the possible operations.
+* Input file is a link to the input PDF file.
+* Output file is a link to the image/text/HTML output file. If an exception occurs while performing an operation on a PDF file, or the PDF file is not available, then output line    for this file will be: : input file .
